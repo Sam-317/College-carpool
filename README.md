@@ -82,8 +82,33 @@ Uber made for college students where students with cars post when and where they
 ## Schema 
 [This section will be completed in Unit 9]
 ### Models
-[Add table of models]
+
+
+
+| Property | Type     |Description                     |
+| -------- | -------- | --------                       |
+| userId   | String   | Unique ID for every user       | 
+| ridePost | String   | Describes where / when a ride is/type of car                       |
+| requestPost| String     | Describe where / when a ride is needed            |
+| Author     | Pointer to user     | Post author       |
+| Image     | File     | Image of driver       |
+| createdAt     | DateTime     | Date when post is created (default field)|
+| updatedAt     | DateTime     | Date when post is updated (default field)|
+| numberOfAvailableSeats     | Number     | How many more people can join the ride|
+| numberOfSeatsRequested     | Number     | How many people need the ride|
+
 ### Networking
-- [Add list of network requests by screen ]
-- [Create basic snippets for each Parse network request]
-- [OPTIONAL: List endpoints if using existing API such as Yelp]
+* Provide a ride screen
+    * (Read/GET) Query all posts
+    * (Delete) Delete post if correct currentUser posted it
+* Publish a ride screen
+    * (Create/POST) create a new ride
+* Need a ride screen
+    * (Read/GET) choice of choose ride screen/ request a ride screen
+* Choose a ride screen
+    * (Read/GET) Query all posts
+    * (Delete) Delete post if correct currentUser posted it
+* Request a ride screen
+    * (Create/POST) make a new ride request
+* Destination screen
+    * (Create/POST) chooses a point on map
