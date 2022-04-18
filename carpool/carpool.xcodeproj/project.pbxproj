@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		671E6AC49554CA677FEFA83C /* Pods_carpoolTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5A7805C364390788EE98882 /* Pods_carpoolTests.framework */; };
 		7A70C734280E1A2300E98717 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A70C733280E1A2300E98717 /* AppDelegate.swift */; };
 		7A70C736280E1A2300E98717 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A70C735280E1A2300E98717 /* SceneDelegate.swift */; };
 		7A70C738280E1A2300E98717 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A70C737280E1A2300E98717 /* ViewController.swift */; };
@@ -16,6 +17,8 @@
 		7A70C74B280E1A2400E98717 /* carpoolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A70C74A280E1A2400E98717 /* carpoolTests.swift */; };
 		7A70C755280E1A2400E98717 /* carpoolUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A70C754280E1A2400E98717 /* carpoolUITests.swift */; };
 		7A70C757280E1A2400E98717 /* carpoolUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A70C756280E1A2400E98717 /* carpoolUITestsLaunchTests.swift */; };
+		9211EC8084174F4021DB19BB /* Pods_carpool_carpoolUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93D84B42FC9E61C4D461A656 /* Pods_carpool_carpoolUITests.framework */; };
+		E1D26C1BC554911BFC32B8D0 /* Pods_carpool.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70DFA0FE749F60CF00E0AA87 /* Pods_carpool.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2310A04D0D17EA679BE37DB8 /* Pods-carpoolTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-carpoolTests.debug.xcconfig"; path = "Target Support Files/Pods-carpoolTests/Pods-carpoolTests.debug.xcconfig"; sourceTree = "<group>"; };
+		70DFA0FE749F60CF00E0AA87 /* Pods_carpool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_carpool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		798FF39C0CFE8138A9873C76 /* Pods-carpool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-carpool.release.xcconfig"; path = "Target Support Files/Pods-carpool/Pods-carpool.release.xcconfig"; sourceTree = "<group>"; };
 		7A70C730280E1A2300E98717 /* carpool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = carpool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A70C733280E1A2300E98717 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7A70C735280E1A2300E98717 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +55,12 @@
 		7A70C750280E1A2400E98717 /* carpoolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = carpoolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A70C754280E1A2400E98717 /* carpoolUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = carpoolUITests.swift; sourceTree = "<group>"; };
 		7A70C756280E1A2400E98717 /* carpoolUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = carpoolUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		88033979F30A11164BB07285 /* Pods-carpool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-carpool.debug.xcconfig"; path = "Target Support Files/Pods-carpool/Pods-carpool.debug.xcconfig"; sourceTree = "<group>"; };
+		93D84B42FC9E61C4D461A656 /* Pods_carpool_carpoolUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_carpool_carpoolUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D39F01F7DD7C529C60CD5EB /* Pods-carpool-carpoolUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-carpool-carpoolUITests.release.xcconfig"; path = "Target Support Files/Pods-carpool-carpoolUITests/Pods-carpool-carpoolUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B5A7805C364390788EE98882 /* Pods_carpoolTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_carpoolTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B90404C8CB1F33FA40E88B77 /* Pods-carpoolTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-carpoolTests.release.xcconfig"; path = "Target Support Files/Pods-carpoolTests/Pods-carpoolTests.release.xcconfig"; sourceTree = "<group>"; };
+		C55C10DEF82D16566908E76F /* Pods-carpool-carpoolUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-carpool-carpoolUITests.debug.xcconfig"; path = "Target Support Files/Pods-carpool-carpoolUITests/Pods-carpool-carpoolUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1D26C1BC554911BFC32B8D0 /* Pods_carpool.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				671E6AC49554CA677FEFA83C /* Pods_carpoolTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9211EC8084174F4021DB19BB /* Pods_carpool_carpoolUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		44A61994B2FD152E1AE1B2E2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				70DFA0FE749F60CF00E0AA87 /* Pods_carpool.framework */,
+				93D84B42FC9E61C4D461A656 /* Pods_carpool_carpoolUITests.framework */,
+				B5A7805C364390788EE98882 /* Pods_carpoolTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7A70C727280E1A2300E98717 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +108,8 @@
 				7A70C749280E1A2400E98717 /* carpoolTests */,
 				7A70C753280E1A2400E98717 /* carpoolUITests */,
 				7A70C731280E1A2300E98717 /* Products */,
+				C884113D32D4C678CADD9B04 /* Pods */,
+				44A61994B2FD152E1AE1B2E2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -127,6 +154,20 @@
 			path = carpoolUITests;
 			sourceTree = "<group>";
 		};
+		C884113D32D4C678CADD9B04 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				88033979F30A11164BB07285 /* Pods-carpool.debug.xcconfig */,
+				798FF39C0CFE8138A9873C76 /* Pods-carpool.release.xcconfig */,
+				C55C10DEF82D16566908E76F /* Pods-carpool-carpoolUITests.debug.xcconfig */,
+				9D39F01F7DD7C529C60CD5EB /* Pods-carpool-carpoolUITests.release.xcconfig */,
+				2310A04D0D17EA679BE37DB8 /* Pods-carpoolTests.debug.xcconfig */,
+				B90404C8CB1F33FA40E88B77 /* Pods-carpoolTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +175,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7A70C75A280E1A2400E98717 /* Build configuration list for PBXNativeTarget "carpool" */;
 			buildPhases = (
+				89198A960250899F88C6870F /* [CP] Check Pods Manifest.lock */,
 				7A70C72C280E1A2300E98717 /* Sources */,
 				7A70C72D280E1A2300E98717 /* Frameworks */,
 				7A70C72E280E1A2300E98717 /* Resources */,
+				5260CA075A282CD3349E275C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +194,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7A70C75D280E1A2400E98717 /* Build configuration list for PBXNativeTarget "carpoolTests" */;
 			buildPhases = (
+				6CDC1027CEA1679092EBD574 /* [CP] Check Pods Manifest.lock */,
 				7A70C742280E1A2400E98717 /* Sources */,
 				7A70C743280E1A2400E98717 /* Frameworks */,
 				7A70C744280E1A2400E98717 /* Resources */,
@@ -169,9 +213,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7A70C760280E1A2400E98717 /* Build configuration list for PBXNativeTarget "carpoolUITests" */;
 			buildPhases = (
+				0149DCB87D65DE3B1F950CE3 /* [CP] Check Pods Manifest.lock */,
 				7A70C74C280E1A2400E98717 /* Sources */,
 				7A70C74D280E1A2400E98717 /* Frameworks */,
 				7A70C74E280E1A2400E98717 /* Resources */,
+				954551A6A823441A4C3498C7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -252,6 +298,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0149DCB87D65DE3B1F950CE3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-carpool-carpoolUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5260CA075A282CD3349E275C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-carpool/Pods-carpool-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-carpool/Pods-carpool-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-carpool/Pods-carpool-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6CDC1027CEA1679092EBD574 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-carpoolTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89198A960250899F88C6870F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-carpool-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		954551A6A823441A4C3498C7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-carpool-carpoolUITests/Pods-carpool-carpoolUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-carpool-carpoolUITests/Pods-carpool-carpoolUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-carpool-carpoolUITests/Pods-carpool-carpoolUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7A70C72C280E1A2300E98717 /* Sources */ = {
@@ -432,6 +581,7 @@
 		};
 		7A70C75B280E1A2400E98717 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88033979F30A11164BB07285 /* Pods-carpool.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -459,6 +609,7 @@
 		};
 		7A70C75C280E1A2400E98717 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 798FF39C0CFE8138A9873C76 /* Pods-carpool.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -486,6 +637,7 @@
 		};
 		7A70C75E280E1A2400E98717 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2310A04D0D17EA679BE37DB8 /* Pods-carpoolTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -505,6 +657,7 @@
 		};
 		7A70C75F280E1A2400E98717 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B90404C8CB1F33FA40E88B77 /* Pods-carpoolTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -524,6 +677,7 @@
 		};
 		7A70C761280E1A2400E98717 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C55C10DEF82D16566908E76F /* Pods-carpool-carpoolUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -541,6 +695,7 @@
 		};
 		7A70C762280E1A2400E98717 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D39F01F7DD7C529C60CD5EB /* Pods-carpool-carpoolUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
