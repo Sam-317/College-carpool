@@ -18,6 +18,10 @@
 		7A70C755280E1A2400E98717 /* carpoolUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A70C754280E1A2400E98717 /* carpoolUITests.swift */; };
 		7A70C757280E1A2400E98717 /* carpoolUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A70C756280E1A2400E98717 /* carpoolUITestsLaunchTests.swift */; };
 		9211EC8084174F4021DB19BB /* Pods_carpool_carpoolUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93D84B42FC9E61C4D461A656 /* Pods_carpool_carpoolUITests.framework */; };
+		D86096ED280E3176005827B9 /* ChooseRideCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86096EC280E3176005827B9 /* ChooseRideCell.swift */; };
+		D86096EF280E497C005827B9 /* RequestRideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86096EE280E497C005827B9 /* RequestRideViewController.swift */; };
+		D8B82E1B280E20E800623ED0 /* ChooseRideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B82E1A280E20E800623ED0 /* ChooseRideViewController.swift */; };
+		D8B82E1F280E223000623ED0 /* NeedRideStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8B82E1E280E223000623ED0 /* NeedRideStoryboard.storyboard */; };
 		E1D26C1BC554911BFC32B8D0 /* Pods_carpool.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70DFA0FE749F60CF00E0AA87 /* Pods_carpool.framework */; };
 /* End PBXBuildFile section */
 
@@ -61,6 +65,10 @@
 		B5A7805C364390788EE98882 /* Pods_carpoolTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_carpoolTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B90404C8CB1F33FA40E88B77 /* Pods-carpoolTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-carpoolTests.release.xcconfig"; path = "Target Support Files/Pods-carpoolTests/Pods-carpoolTests.release.xcconfig"; sourceTree = "<group>"; };
 		C55C10DEF82D16566908E76F /* Pods-carpool-carpoolUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-carpool-carpoolUITests.debug.xcconfig"; path = "Target Support Files/Pods-carpool-carpoolUITests/Pods-carpool-carpoolUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D86096EC280E3176005827B9 /* ChooseRideCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseRideCell.swift; sourceTree = "<group>"; };
+		D86096EE280E497C005827B9 /* RequestRideViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestRideViewController.swift; sourceTree = "<group>"; };
+		D8B82E1A280E20E800623ED0 /* ChooseRideViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseRideViewController.swift; sourceTree = "<group>"; };
+		D8B82E1E280E223000623ED0 /* NeedRideStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = NeedRideStoryboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,8 +138,12 @@
 				7A70C735280E1A2300E98717 /* SceneDelegate.swift */,
 				7A70C737280E1A2300E98717 /* ViewController.swift */,
 				7A70C739280E1A2300E98717 /* Main.storyboard */,
+				D8B82E1E280E223000623ED0 /* NeedRideStoryboard.storyboard */,
+				D86096EE280E497C005827B9 /* RequestRideViewController.swift */,
 				7A70C73C280E1A2400E98717 /* Assets.xcassets */,
 				7A70C73E280E1A2400E98717 /* LaunchScreen.storyboard */,
+				D8B82E1A280E20E800623ED0 /* ChooseRideViewController.swift */,
+				D86096EC280E3176005827B9 /* ChooseRideCell.swift */,
 				7A70C741280E1A2400E98717 /* Info.plist */,
 			);
 			path = carpool;
@@ -164,7 +176,6 @@
 				2310A04D0D17EA679BE37DB8 /* Pods-carpoolTests.debug.xcconfig */,
 				B90404C8CB1F33FA40E88B77 /* Pods-carpoolTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -278,6 +289,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A70C740280E1A2400E98717 /* LaunchScreen.storyboard in Resources */,
+				D8B82E1F280E223000623ED0 /* NeedRideStoryboard.storyboard in Resources */,
 				7A70C73D280E1A2400E98717 /* Assets.xcassets in Resources */,
 				7A70C73B280E1A2300E98717 /* Main.storyboard in Resources */,
 			);
@@ -408,7 +420,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A70C738280E1A2300E98717 /* ViewController.swift in Sources */,
+				D8B82E1B280E20E800623ED0 /* ChooseRideViewController.swift in Sources */,
+				D86096ED280E3176005827B9 /* ChooseRideCell.swift in Sources */,
 				7A70C734280E1A2300E98717 /* AppDelegate.swift in Sources */,
+				D86096EF280E497C005827B9 /* RequestRideViewController.swift in Sources */,
 				7A70C736280E1A2300E98717 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
