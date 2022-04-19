@@ -1,6 +1,3 @@
-Original App Design Project - README Template
-===
-
 # College Carpool 
 
 ## Table of Contents
@@ -74,11 +71,6 @@ Uber made for college students where students with cars post when and where they
 
 <img src="https://i.ibb.co/ckXrbSq/wireframe.jpg" width=600>
 
-
-### [BONUS] Digital Wireframes & Mockups
-
-### [BONUS] Interactive Prototype
-
 ## Schema 
 [This section will be completed in Unit 9]
 ### Models
@@ -87,14 +79,20 @@ Uber made for college students where students with cars post when and where they
 
 | Property | Type     |Description                     |
 | -------- | -------- | --------                       |
+| **User** class|
 | userId   | String   | Unique ID for every user       | 
-| ridePost | String   | Describes where / when a ride is/type of car                       |
-| requestPost| String     | Describe where / when a ride is needed            |
-| Author     | Pointer to user     | Post author       |
+| carModel | String   | the car the user will drive for offered rides                       |
 | Image     | File     | Image of driver       |
+| **RideOffers** and **RideRequests** classes|
+| cost | Number   | amount willing to pay / wanted for a ride                       |
+| time | DateTime   | time the desired or offered ride will depart                       |
+| destination | String   | the desired or offered destination of a ride                       |
+| Author     | Pointer to user     | Post author       |
 | createdAt     | DateTime     | Date when post is created (default field)|
 | updatedAt     | DateTime     | Date when post is updated (default field)|
+|**RideOffers** class|
 | numberOfAvailableSeats     | Number     | How many more people can join the ride|
+|**RideRequests** class|
 | numberOfSeatsRequested     | Number     | How many people need the ride|
 
 ### Networking
