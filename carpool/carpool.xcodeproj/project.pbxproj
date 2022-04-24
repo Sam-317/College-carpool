@@ -8,9 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		671E6AC49554CA677FEFA83C /* Pods_carpoolTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5A7805C364390788EE98882 /* Pods_carpoolTests.framework */; };
+		7A4401B32816090000536DDF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4401B22816090000536DDF /* LoginViewController.swift */; };
+		7A4401B52816090A00536DDF /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4401B42816090A00536DDF /* FeedViewController.swift */; };
 		7A70C734280E1A2300E98717 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A70C733280E1A2300E98717 /* AppDelegate.swift */; };
 		7A70C736280E1A2300E98717 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A70C735280E1A2300E98717 /* SceneDelegate.swift */; };
-		7A70C738280E1A2300E98717 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A70C737280E1A2300E98717 /* ViewController.swift */; };
 		7A70C73B280E1A2300E98717 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A70C739280E1A2300E98717 /* Main.storyboard */; };
 		7A70C73D280E1A2400E98717 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A70C73C280E1A2400E98717 /* Assets.xcassets */; };
 		7A70C740280E1A2400E98717 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A70C73E280E1A2400E98717 /* LaunchScreen.storyboard */; };
@@ -46,10 +47,11 @@
 		2310A04D0D17EA679BE37DB8 /* Pods-carpoolTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-carpoolTests.debug.xcconfig"; path = "Target Support Files/Pods-carpoolTests/Pods-carpoolTests.debug.xcconfig"; sourceTree = "<group>"; };
 		70DFA0FE749F60CF00E0AA87 /* Pods_carpool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_carpool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		798FF39C0CFE8138A9873C76 /* Pods-carpool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-carpool.release.xcconfig"; path = "Target Support Files/Pods-carpool/Pods-carpool.release.xcconfig"; sourceTree = "<group>"; };
+		7A4401B22816090000536DDF /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		7A4401B42816090A00536DDF /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		7A70C730280E1A2300E98717 /* carpool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = carpool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A70C733280E1A2300E98717 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7A70C735280E1A2300E98717 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7A70C737280E1A2300E98717 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7A70C73A280E1A2300E98717 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7A70C73C280E1A2400E98717 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A70C73F280E1A2400E98717 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -136,7 +138,6 @@
 			children = (
 				7A70C733280E1A2300E98717 /* AppDelegate.swift */,
 				7A70C735280E1A2300E98717 /* SceneDelegate.swift */,
-				7A70C737280E1A2300E98717 /* ViewController.swift */,
 				7A70C739280E1A2300E98717 /* Main.storyboard */,
 				D8B82E1E280E223000623ED0 /* NeedRideStoryboard.storyboard */,
 				D86096EE280E497C005827B9 /* RequestRideViewController.swift */,
@@ -145,6 +146,8 @@
 				D8B82E1A280E20E800623ED0 /* ChooseRideViewController.swift */,
 				D86096EC280E3176005827B9 /* ChooseRideCell.swift */,
 				7A70C741280E1A2400E98717 /* Info.plist */,
+				7A4401B22816090000536DDF /* LoginViewController.swift */,
+				7A4401B42816090A00536DDF /* FeedViewController.swift */,
 			);
 			path = carpool;
 			sourceTree = "<group>";
@@ -419,11 +422,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A70C738280E1A2300E98717 /* ViewController.swift in Sources */,
+				7A4401B32816090000536DDF /* LoginViewController.swift in Sources */,
 				D8B82E1B280E20E800623ED0 /* ChooseRideViewController.swift in Sources */,
 				D86096ED280E3176005827B9 /* ChooseRideCell.swift in Sources */,
 				7A70C734280E1A2300E98717 /* AppDelegate.swift in Sources */,
 				D86096EF280E497C005827B9 /* RequestRideViewController.swift in Sources */,
+				7A4401B52816090A00536DDF /* FeedViewController.swift in Sources */,
 				7A70C736280E1A2300E98717 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
