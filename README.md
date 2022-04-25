@@ -25,8 +25,8 @@ Uber made for college students where students with cars post when and where they
 
 **Required Must-have Stories**
 
-- [ ] User can create an account
-- [ ] User can log in
+- [X] User can create an account
+- [X] User can log in
 - [ ] User can post a message saying when, where and cost of ride
 - [ ] User can respond to a posted message
 
