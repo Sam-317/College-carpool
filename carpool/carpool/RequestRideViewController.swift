@@ -69,7 +69,7 @@ class RequestRideViewController: UIViewController {
     
     @IBAction func request(_ sender: Any) {
         let request = PFObject(className: "RideRequests")
-        // let request = PFObject(className: "RideOffers") // test purposees (to create ride offer)
+        // let request = PFObject(className: "RideOffers") // test purposes (to create ride offer)
         
         let timeText = timeTextField.text
         let destText = destTextField.text
@@ -86,8 +86,8 @@ class RequestRideViewController: UIViewController {
         request["cost"] = Int(costText!) ?? 0
         request["numberOfRequestedSeats"] = Int(numPeopleText!) ?? 1
         //request["numberOfAvailableSeats"] = Int(numPeopleText!) ?? 1 // test purposes
-        request["rideReservers"] = [PFUser]()
-        request["numSeatsTaken"] = [Int]()
+        //request["rideReservers"] = [PFUser]() // test
+        //request["numSeatsTaken"] = [Int]() // test
         
         request["author"] = PFUser.current()!
         request["createdAt"] = Date()
