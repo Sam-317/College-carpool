@@ -46,29 +46,42 @@ class ChooseRideViewController: UIViewController, UITableViewDelegate, UITableVi
         let user = post["author"] as! PFUser
         cell.nameLabel.text = user.username
         cell.destinationLabel.text = post["destination"] as! String
-        cell.timeLabel.text = post["time"] as! String
-        cell.costLabel.text = post["cost"] as! String
+        cell.timeLabel.text = formatDate(date: post["time"] as! Date)
         
-        let imageFile = post["carImage"] as! PFFileObject
-        let urlString = imageFile.url!
-        let url = URL(string: urlString)!
+        let numSeats = post["numberOfAvailableSeats"] as! Int
+        if numSeats == 1 {
+            cell.numSeatsLabel.text = String(numSeats) + " seat available"
+        } else {
+            cell.numSeatsLabel.text = String(numSeats) + " seats available"
+        }
+        cell.costLabel.text = "Cost: $" + String(post["cost"] as! Int)
         
-        cell.photoView.af_setImage(withURL: url)
+        //let imageFile = post["carImage"] as! PFFileObject
+        //let urlString = imageFile.url!
+        //let url = URL(string: urlString)!
+        
+        //cell.photoView.af_setImage(withURL: url)
         
         return cell
     }
+    func formatDate(date: Date) -> String {
+        let formatter = DateFormatter()
+        formatter.dateFormat = "h:mm a, MMMM, dd"
+        return formatter.string(from: date)
+    }
+
     @IBAction func back(_ sender: Any) {
         dismiss(animated: true, completion: nil)
     }
     
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+        let cell = sender as! UITableViewCell
+        let indexPath = tableView.indexPath(for: cell)!
+        let post = posts[indexPath.row]
+        
+        let detailsViewController = segue.destination as! ChooseRideDetailsViewController
+        
+        detailsViewController.post = post
     }
-    */
 
 }

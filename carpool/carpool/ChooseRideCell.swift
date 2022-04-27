@@ -14,6 +14,7 @@ class ChooseRideCell: UITableViewCell {
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var destinationLabel: UILabel!
     @IBOutlet weak var timeLabel: UILabel!
+    @IBOutlet weak var numSeatsLabel: UILabel!
     @IBOutlet weak var costLabel: UILabel!
     
     override func awakeFromNib() {
@@ -26,5 +27,6 @@ class ChooseRideCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
+    
 
 }

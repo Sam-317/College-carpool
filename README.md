@@ -28,7 +28,7 @@ Uber made for college students where students with cars post when and where they
 - [X] User can create an account
 - [X] User can log in
 - [ ] User can post a message saying when, where and cost of ride
-- [ ] User can respond to a posted message
+- [X] User can respond to a posted message
 
 **Optional Nice-to-have Stories**
 
@@ -87,13 +87,15 @@ Uber made for college students where students with cars post when and where they
 | cost | Number   | amount willing to pay / wanted for a ride                       |
 | time | DateTime   | time the desired or offered ride will depart                       |
 | destination | String   | the desired or offered destination of a ride                       |
-| Author     | Pointer to user     | Post author       |
+| author     | Pointer to user     | Post author       |
 | createdAt     | DateTime     | Date when post is created (default field)|
 | updatedAt     | DateTime     | Date when post is updated (default field)|
 |**RideOffers** class|
 | numberOfAvailableSeats     | Number     | How many more people can join the ride|
+| rideReservers	| Arrray<PFUser>	| an array of the users who reserved a ride |
+| numSeatsTaken	| Array<Int>	| number of seats each user reserved (corresponds to rideReservers array) |
 |**RideRequests** class|
-| numberOfSeatsRequested     | Number     | How many people need the ride|
+| numberOfRequestedSeats     | Number     | How many people need the ride|
 
 ### Networking
 * Provide a ride screen
@@ -113,4 +115,4 @@ Uber made for college students where students with cars post when and where they
 
 ### Progress
 
-<img src="sprint1-benjamin.gif"/>
+<img src="sprint2.gif"/>
