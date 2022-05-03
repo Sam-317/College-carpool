@@ -10,6 +10,11 @@
 		671E6AC49554CA677FEFA83C /* Pods_carpoolTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5A7805C364390788EE98882 /* Pods_carpoolTests.framework */; };
 		7A4401B32816090000536DDF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4401B22816090000536DDF /* LoginViewController.swift */; };
 		7A4401B52816090A00536DDF /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4401B42816090A00536DDF /* FeedViewController.swift */; };
+		7A5882272821C2B5007E3BB7 /* ChooseRideProvideCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5882262821C2B5007E3BB7 /* ChooseRideProvideCell.swift */; };
+		7A5882292821C2CE007E3BB7 /* ChooseRideProvideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5882282821C2CE007E3BB7 /* ChooseRideProvideViewController.swift */; };
+		7A58822B2821D81D007E3BB7 /* PublishRideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A58822A2821D81D007E3BB7 /* PublishRideViewController.swift */; };
+		7A58822D2821D82A007E3BB7 /* CancelRideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A58822C2821D82A007E3BB7 /* CancelRideViewController.swift */; };
+		7A58822F2821DA16007E3BB7 /* NeedRideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A58822E2821DA16007E3BB7 /* NeedRideViewController.swift */; };
 		7A70C734280E1A2300E98717 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A70C733280E1A2300E98717 /* AppDelegate.swift */; };
 		7A70C736280E1A2300E98717 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A70C735280E1A2300E98717 /* SceneDelegate.swift */; };
 		7A70C73B280E1A2300E98717 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A70C739280E1A2300E98717 /* Main.storyboard */; };
@@ -50,6 +55,11 @@
 		798FF39C0CFE8138A9873C76 /* Pods-carpool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-carpool.release.xcconfig"; path = "Target Support Files/Pods-carpool/Pods-carpool.release.xcconfig"; sourceTree = "<group>"; };
 		7A4401B22816090000536DDF /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		7A4401B42816090A00536DDF /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		7A5882262821C2B5007E3BB7 /* ChooseRideProvideCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseRideProvideCell.swift; sourceTree = "<group>"; };
+		7A5882282821C2CE007E3BB7 /* ChooseRideProvideViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseRideProvideViewController.swift; sourceTree = "<group>"; };
+		7A58822A2821D81D007E3BB7 /* PublishRideViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublishRideViewController.swift; sourceTree = "<group>"; };
+		7A58822C2821D82A007E3BB7 /* CancelRideViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancelRideViewController.swift; sourceTree = "<group>"; };
+		7A58822E2821DA16007E3BB7 /* NeedRideViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeedRideViewController.swift; sourceTree = "<group>"; };
 		7A70C730280E1A2300E98717 /* carpool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = carpool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A70C733280E1A2300E98717 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7A70C735280E1A2300E98717 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -151,6 +161,11 @@
 				7A70C741280E1A2400E98717 /* Info.plist */,
 				7A4401B22816090000536DDF /* LoginViewController.swift */,
 				7A4401B42816090A00536DDF /* FeedViewController.swift */,
+				7A5882262821C2B5007E3BB7 /* ChooseRideProvideCell.swift */,
+				7A5882282821C2CE007E3BB7 /* ChooseRideProvideViewController.swift */,
+				7A58822A2821D81D007E3BB7 /* PublishRideViewController.swift */,
+				7A58822C2821D82A007E3BB7 /* CancelRideViewController.swift */,
+				7A58822E2821DA16007E3BB7 /* NeedRideViewController.swift */,
 			);
 			path = carpool;
 			sourceTree = "<group>";
@@ -427,10 +442,15 @@
 			files = (
 				7A4401B32816090000536DDF /* LoginViewController.swift in Sources */,
 				D8B82E1B280E20E800623ED0 /* ChooseRideViewController.swift in Sources */,
+				7A5882272821C2B5007E3BB7 /* ChooseRideProvideCell.swift in Sources */,
+				7A58822F2821DA16007E3BB7 /* NeedRideViewController.swift in Sources */,
 				D84A99382818D73C0001AE3D /* ChooseRideDetailsViewController.swift in Sources */,
+				7A58822B2821D81D007E3BB7 /* PublishRideViewController.swift in Sources */,
 				D86096ED280E3176005827B9 /* ChooseRideCell.swift in Sources */,
+				7A58822D2821D82A007E3BB7 /* CancelRideViewController.swift in Sources */,
 				7A70C734280E1A2300E98717 /* AppDelegate.swift in Sources */,
 				D86096EF280E497C005827B9 /* RequestRideViewController.swift in Sources */,
+				7A5882292821C2CE007E3BB7 /* ChooseRideProvideViewController.swift in Sources */,
 				7A4401B52816090A00536DDF /* FeedViewController.swift in Sources */,
 				7A70C736280E1A2300E98717 /* SceneDelegate.swift in Sources */,
 			);
