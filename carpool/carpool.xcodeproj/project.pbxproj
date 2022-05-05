@@ -13,7 +13,6 @@
 		7A5882272821C2B5007E3BB7 /* ChooseRideProvideCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5882262821C2B5007E3BB7 /* ChooseRideProvideCell.swift */; };
 		7A5882292821C2CE007E3BB7 /* ChooseRideProvideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5882282821C2CE007E3BB7 /* ChooseRideProvideViewController.swift */; };
 		7A58822B2821D81D007E3BB7 /* PublishRideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A58822A2821D81D007E3BB7 /* PublishRideViewController.swift */; };
-		7A58822D2821D82A007E3BB7 /* CancelRideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A58822C2821D82A007E3BB7 /* CancelRideViewController.swift */; };
 		7A58822F2821DA16007E3BB7 /* NeedRideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A58822E2821DA16007E3BB7 /* NeedRideViewController.swift */; };
 		7A70C734280E1A2300E98717 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A70C733280E1A2300E98717 /* AppDelegate.swift */; };
 		7A70C736280E1A2300E98717 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A70C735280E1A2300E98717 /* SceneDelegate.swift */; };
@@ -24,6 +23,7 @@
 		7A70C755280E1A2400E98717 /* carpoolUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A70C754280E1A2400E98717 /* carpoolUITests.swift */; };
 		7A70C757280E1A2400E98717 /* carpoolUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A70C756280E1A2400E98717 /* carpoolUITestsLaunchTests.swift */; };
 		9211EC8084174F4021DB19BB /* Pods_carpool_carpoolUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93D84B42FC9E61C4D461A656 /* Pods_carpool_carpoolUITests.framework */; };
+		D807DA3A282442F500F2112F /* ProvideRideDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D807DA39282442F500F2112F /* ProvideRideDetailsViewController.swift */; };
 		D84A99382818D73C0001AE3D /* ChooseRideDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D84A99372818D73C0001AE3D /* ChooseRideDetailsViewController.swift */; };
 		D86096ED280E3176005827B9 /* ChooseRideCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86096EC280E3176005827B9 /* ChooseRideCell.swift */; };
 		D86096EF280E497C005827B9 /* RequestRideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86096EE280E497C005827B9 /* RequestRideViewController.swift */; };
@@ -60,7 +60,6 @@
 		7A5882262821C2B5007E3BB7 /* ChooseRideProvideCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseRideProvideCell.swift; sourceTree = "<group>"; };
 		7A5882282821C2CE007E3BB7 /* ChooseRideProvideViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseRideProvideViewController.swift; sourceTree = "<group>"; };
 		7A58822A2821D81D007E3BB7 /* PublishRideViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublishRideViewController.swift; sourceTree = "<group>"; };
-		7A58822C2821D82A007E3BB7 /* CancelRideViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancelRideViewController.swift; sourceTree = "<group>"; };
 		7A58822E2821DA16007E3BB7 /* NeedRideViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeedRideViewController.swift; sourceTree = "<group>"; };
 		7A70C730280E1A2300E98717 /* carpool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = carpool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A70C733280E1A2300E98717 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -80,6 +79,7 @@
 		B5A7805C364390788EE98882 /* Pods_carpoolTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_carpoolTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B90404C8CB1F33FA40E88B77 /* Pods-carpoolTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-carpoolTests.release.xcconfig"; path = "Target Support Files/Pods-carpoolTests/Pods-carpoolTests.release.xcconfig"; sourceTree = "<group>"; };
 		C55C10DEF82D16566908E76F /* Pods-carpool-carpoolUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-carpool-carpoolUITests.debug.xcconfig"; path = "Target Support Files/Pods-carpool-carpoolUITests/Pods-carpool-carpoolUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D807DA39282442F500F2112F /* ProvideRideDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProvideRideDetailsViewController.swift; sourceTree = "<group>"; };
 		D84A99372818D73C0001AE3D /* ChooseRideDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseRideDetailsViewController.swift; sourceTree = "<group>"; };
 		D86096EC280E3176005827B9 /* ChooseRideCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseRideCell.swift; sourceTree = "<group>"; };
 		D86096EE280E497C005827B9 /* RequestRideViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestRideViewController.swift; sourceTree = "<group>"; };
@@ -152,26 +152,16 @@
 		7A70C732280E1A2300E98717 /* carpool */ = {
 			isa = PBXGroup;
 			children = (
+				D807DA3728243CEE00F2112F /* Need Ride */,
 				7A70C733280E1A2300E98717 /* AppDelegate.swift */,
 				7A70C735280E1A2300E98717 /* SceneDelegate.swift */,
 				7A70C739280E1A2300E98717 /* Main.storyboard */,
-				D8B82E1E280E223000623ED0 /* NeedRideStoryboard.storyboard */,
-				D84A99372818D73C0001AE3D /* ChooseRideDetailsViewController.swift */,
-				D86096EE280E497C005827B9 /* RequestRideViewController.swift */,
 				7A70C73C280E1A2400E98717 /* Assets.xcassets */,
 				7A70C73E280E1A2400E98717 /* LaunchScreen.storyboard */,
-				D8B82E1A280E20E800623ED0 /* ChooseRideViewController.swift */,
-				D89CBFF128221142003D9392 /* RequestRideDetailsViewController.swift */,
-				D86096EC280E3176005827B9 /* ChooseRideCell.swift */,
 				7A70C741280E1A2400E98717 /* Info.plist */,
 				7A4401B22816090000536DDF /* LoginViewController.swift */,
 				7A4401B42816090A00536DDF /* FeedViewController.swift */,
-				7A5882262821C2B5007E3BB7 /* ChooseRideProvideCell.swift */,
-				7A5882282821C2CE007E3BB7 /* ChooseRideProvideViewController.swift */,
-				7A58822A2821D81D007E3BB7 /* PublishRideViewController.swift */,
-				7A58822C2821D82A007E3BB7 /* CancelRideViewController.swift */,
-				7A58822E2821DA16007E3BB7 /* NeedRideViewController.swift */,
-				D89CBFEE28220934003D9392 /* RequestCell.swift */,
+				D807DA3828243E1800F2112F /* Provide Ride */,
 			);
 			path = carpool;
 			sourceTree = "<group>";
@@ -204,6 +194,32 @@
 				B90404C8CB1F33FA40E88B77 /* Pods-carpoolTests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		D807DA3728243CEE00F2112F /* Need Ride */ = {
+			isa = PBXGroup;
+			children = (
+				D8B82E1E280E223000623ED0 /* NeedRideStoryboard.storyboard */,
+				D84A99372818D73C0001AE3D /* ChooseRideDetailsViewController.swift */,
+				D86096EE280E497C005827B9 /* RequestRideViewController.swift */,
+				D8B82E1A280E20E800623ED0 /* ChooseRideViewController.swift */,
+				D89CBFF128221142003D9392 /* RequestRideDetailsViewController.swift */,
+				D86096EC280E3176005827B9 /* ChooseRideCell.swift */,
+				7A58822E2821DA16007E3BB7 /* NeedRideViewController.swift */,
+				D89CBFEE28220934003D9392 /* RequestCell.swift */,
+			);
+			path = "Need Ride";
+			sourceTree = "<group>";
+		};
+		D807DA3828243E1800F2112F /* Provide Ride */ = {
+			isa = PBXGroup;
+			children = (
+				7A5882282821C2CE007E3BB7 /* ChooseRideProvideViewController.swift */,
+				7A58822A2821D81D007E3BB7 /* PublishRideViewController.swift */,
+				7A5882262821C2B5007E3BB7 /* ChooseRideProvideCell.swift */,
+				D807DA39282442F500F2112F /* ProvideRideDetailsViewController.swift */,
+			);
+			path = "Provide Ride";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -455,12 +471,12 @@
 				D84A99382818D73C0001AE3D /* ChooseRideDetailsViewController.swift in Sources */,
 				7A58822B2821D81D007E3BB7 /* PublishRideViewController.swift in Sources */,
 				D86096ED280E3176005827B9 /* ChooseRideCell.swift in Sources */,
-				7A58822D2821D82A007E3BB7 /* CancelRideViewController.swift in Sources */,
 				7A70C734280E1A2300E98717 /* AppDelegate.swift in Sources */,
 				D86096EF280E497C005827B9 /* RequestRideViewController.swift in Sources */,
 				7A5882292821C2CE007E3BB7 /* ChooseRideProvideViewController.swift in Sources */,
 				7A4401B52816090A00536DDF /* FeedViewController.swift in Sources */,
 				7A70C736280E1A2300E98717 /* SceneDelegate.swift in Sources */,
+				D807DA3A282442F500F2112F /* ProvideRideDetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
