@@ -118,4 +118,4 @@ Uber made for college students where students with cars post when and where they
 ### Progress
 
 <img src="sprint2.gif"/>
-<img src="sprint3.gif"/>
+<img src="Sprint3.gif"/>
