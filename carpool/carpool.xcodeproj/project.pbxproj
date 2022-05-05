@@ -27,6 +27,8 @@
 		D84A99382818D73C0001AE3D /* ChooseRideDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D84A99372818D73C0001AE3D /* ChooseRideDetailsViewController.swift */; };
 		D86096ED280E3176005827B9 /* ChooseRideCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86096EC280E3176005827B9 /* ChooseRideCell.swift */; };
 		D86096EF280E497C005827B9 /* RequestRideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86096EE280E497C005827B9 /* RequestRideViewController.swift */; };
+		D89CBFEF28220934003D9392 /* RequestCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89CBFEE28220934003D9392 /* RequestCell.swift */; };
+		D89CBFF228221142003D9392 /* RequestRideDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89CBFF128221142003D9392 /* RequestRideDetailsViewController.swift */; };
 		D8B82E1B280E20E800623ED0 /* ChooseRideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B82E1A280E20E800623ED0 /* ChooseRideViewController.swift */; };
 		D8B82E1F280E223000623ED0 /* NeedRideStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8B82E1E280E223000623ED0 /* NeedRideStoryboard.storyboard */; };
 		E1D26C1BC554911BFC32B8D0 /* Pods_carpool.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70DFA0FE749F60CF00E0AA87 /* Pods_carpool.framework */; };
@@ -81,6 +83,8 @@
 		D84A99372818D73C0001AE3D /* ChooseRideDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseRideDetailsViewController.swift; sourceTree = "<group>"; };
 		D86096EC280E3176005827B9 /* ChooseRideCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseRideCell.swift; sourceTree = "<group>"; };
 		D86096EE280E497C005827B9 /* RequestRideViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestRideViewController.swift; sourceTree = "<group>"; };
+		D89CBFEE28220934003D9392 /* RequestCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestCell.swift; sourceTree = "<group>"; };
+		D89CBFF128221142003D9392 /* RequestRideDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestRideDetailsViewController.swift; sourceTree = "<group>"; };
 		D8B82E1A280E20E800623ED0 /* ChooseRideViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseRideViewController.swift; sourceTree = "<group>"; };
 		D8B82E1E280E223000623ED0 /* NeedRideStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = NeedRideStoryboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -157,6 +161,7 @@
 				7A70C73C280E1A2400E98717 /* Assets.xcassets */,
 				7A70C73E280E1A2400E98717 /* LaunchScreen.storyboard */,
 				D8B82E1A280E20E800623ED0 /* ChooseRideViewController.swift */,
+				D89CBFF128221142003D9392 /* RequestRideDetailsViewController.swift */,
 				D86096EC280E3176005827B9 /* ChooseRideCell.swift */,
 				7A70C741280E1A2400E98717 /* Info.plist */,
 				7A4401B22816090000536DDF /* LoginViewController.swift */,
@@ -166,6 +171,7 @@
 				7A58822A2821D81D007E3BB7 /* PublishRideViewController.swift */,
 				7A58822C2821D82A007E3BB7 /* CancelRideViewController.swift */,
 				7A58822E2821DA16007E3BB7 /* NeedRideViewController.swift */,
+				D89CBFEE28220934003D9392 /* RequestCell.swift */,
 			);
 			path = carpool;
 			sourceTree = "<group>";
@@ -441,8 +447,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A4401B32816090000536DDF /* LoginViewController.swift in Sources */,
+				D89CBFEF28220934003D9392 /* RequestCell.swift in Sources */,
 				D8B82E1B280E20E800623ED0 /* ChooseRideViewController.swift in Sources */,
 				7A5882272821C2B5007E3BB7 /* ChooseRideProvideCell.swift in Sources */,
+				D89CBFF228221142003D9392 /* RequestRideDetailsViewController.swift in Sources */,
 				7A58822F2821DA16007E3BB7 /* NeedRideViewController.swift in Sources */,
 				D84A99382818D73C0001AE3D /* ChooseRideDetailsViewController.swift in Sources */,
 				7A58822B2821D81D007E3BB7 /* PublishRideViewController.swift in Sources */,

@@ -33,8 +33,8 @@ class RequestRideViewController: UIViewController {
         let datePicker = UIDatePicker()
         datePicker.datePickerMode = .dateAndTime
         datePicker.addTarget(self, action: #selector(dateChange(datePicker:)), for: UIControl.Event.valueChanged)
-        datePicker.frame.size = CGSize(width: 0, height: 300)
-        datePicker.preferredDatePickerStyle = .wheels
+        datePicker.frame.size = CGSize(width: 0, height: 200)
+        datePicker.preferredDatePickerStyle = .compact
         datePicker.minimumDate = Date()
         
         timeTextField.inputView = datePicker
@@ -92,6 +92,7 @@ class RequestRideViewController: UIViewController {
         request["author"] = PFUser.current()!
         request["createdAt"] = Date()
         request["updatedAt"] = Date()
+        request["primary"] = true
         
         request.saveInBackground { (success, error) in
             if success {

@@ -45,28 +45,53 @@ class ChooseRideDetailsViewController: UIViewController {
     }
     
     @IBAction func reserveRide(_ sender: Any) {
-        if (numSeatsTF.text!.isEmpty  || Int(numSeatsTF.text!)! > post["numberOfAvailableSeats"] as! Int) {
+        print("IN RESERVERIDE")
+        
+        // validate number of seats entered
+        if (numSeatsTF.text!.isEmpty  || Int(numSeatsTF.text!)! > post["numberOfAvailableSeats"] as! Int || Int(numSeatsTF.text!)! == 0) {
             return
         }
         
-        // decrease number of available seats in parse
-        let numSeatsTake = (Int(numSeatsTF.text!)) as! Int
+        // decrease number of available seats in the post["numberOfAvailableSetas"]
+        let numSeatsTake = (Int(numSeatsTF.text!))!
         post["numberOfAvailableSeats"] = post["numberOfAvailableSeats"] as! Int - (numSeatsTake)
         
-        var newSeatArray = [Int]()
-        for num in post["numSeatsTaken"] as! Array<Int> {
-            newSeatArray.append(num)
-        }
-        newSeatArray.append(numSeatsTake)
-        print(newSeatArray)
-        post["numSeatsTaken"] = newSeatArray
         
-        var newUserArray = [PFUser]()
-        for user in post["rideReservers"] as! Array<PFUser> {
-            newUserArray.append(user)
+        // ***** create the ride request *****
+        let request = PFObject(className: "RideRequests")
+        
+        request["time"] = post["time"]
+        request["destination"] = post["destination"]
+        request["cost"] = (post["cost"] as! Int)
+        request["numberOfRequestedSeats"] = numSeatsTake
+        
+        request["author"] = PFUser.current()!
+        request["createdAt"] = Date()
+        request["updatedAt"] = Date()
+        request["primary"] = false
+        
+        request["offerer"] = post
+        
+        request.saveInBackground { (success, error) in
+            if success {
+                print("ride request saved")
+            } else {
+                print("error in saving ride request")
+            }
         }
-        newUserArray.append(PFUser.current()!)
-        post["rideReservers"] = newUserArray
+        
+
+        // ** add request to post["requestList"] **
+        var newRequestList = [PFObject]()
+        if(post["requestList"] != nil){
+            // copy old requests into array
+            for oldRequest in post["requestList"] as! Array<PFObject> {
+                newRequestList.append(oldRequest)
+            }
+        }
+        newRequestList.append(request) // add new request
+        post["requestList"] = newRequestList
+        
         
         post.saveInBackground { (success, error) in
             if success {
@@ -75,11 +100,10 @@ class ChooseRideDetailsViewController: UIViewController {
                 print("error in saving ride request")
             }
         }
-
         
         
-        //navigationController?.popViewController(animated: true)
-        self.presentingViewController?.presentingViewController?.dismiss(animated: true)
+        // go back to Need Ride View Controller
+        self.presentingViewController?.dismiss(animated: true)
     }
     
     /*

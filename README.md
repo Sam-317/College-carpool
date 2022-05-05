@@ -89,13 +89,14 @@ Uber made for college students where students with cars post when and where they
 | time | DateTime   | time the desired or offered ride will depart                       |
 | destination | String   | the desired or offered destination of a ride                       |
 | author     | Pointer to user     | Post author       |
+| primary     |  Boolean     | whether this is an original request/offer or a request/offer to an existing       |
 | createdAt     | DateTime     | Date when post is created (default field)|
 | updatedAt     | DateTime     | Date when post is updated (default field)|
 |**RideOffers** class|
 | numberOfAvailableSeats     | Number     | How many more people can join the ride|
-| rideReservers	| Arrray<PFUser>	| an array of the users who reserved a ride |
-| numSeatsTaken	| Array<Int>	| number of seats each user reserved (corresponds to rideReservers array) |
+| requestList	| Arrray<PFObject>	| an array of the RideRequests for the offered ride |
 |**RideRequests** class|
+| offerer     | PFObject     | nil or RideOffers object made by the person who agreed to offer the ride |
 | numberOfRequestedSeats     | Number     | How many people need the ride|
 
 ### Networking
@@ -117,3 +118,4 @@ Uber made for college students where students with cars post when and where they
 ### Progress
 
 <img src="sprint2.gif"/>
+<img src="sprint3.gif"/>

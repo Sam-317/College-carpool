@@ -11,9 +11,10 @@ import AlamofireImage
 
 class ChooseRideViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
+    @IBOutlet weak var tableView: UITableView!
+    
     var posts = [PFObject]()
 
-    @IBOutlet weak var tableView: UITableView!
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -24,7 +25,8 @@ class ChooseRideViewController: UIViewController, UITableViewDelegate, UITableVi
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         
-        let query = PFQuery(className:"RideOffers")
+        let predicate = NSPredicate(format: "author != %@ && numberOfAvailableSeats > 0", PFUser.current()!)
+        let query = PFQuery(className:"RideOffers", predicate: predicate)
         query.includeKey("author")
         query.limit = 20
         
@@ -45,7 +47,7 @@ class ChooseRideViewController: UIViewController, UITableViewDelegate, UITableVi
         let post = posts[indexPath.row]
         let user = post["author"] as! PFUser
         cell.nameLabel.text = user.username
-        cell.destinationLabel.text = post["destination"] as! String
+        cell.destinationLabel.text = post["destination"] as? String
         cell.timeLabel.text = formatDate(date: post["time"] as! Date)
         
         let numSeats = post["numberOfAvailableSeats"] as! Int
